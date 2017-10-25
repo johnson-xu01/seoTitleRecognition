@@ -1,6 +1,5 @@
 # seoTitleRecognition
-sentence classification
-识别出**一职多岗**的招聘标题，打上标签１．
+sentence classification: 识别出`一职多岗`的招聘标题，打上标签１．
 ```java
 public class Example {
     public static void main(String[] args) {
