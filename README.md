@@ -1,7 +1,7 @@
 # seoTitleRecognition
 sentence classification: 识别出`一职多岗`的招聘标题，打上标签１．
 
-将[word2vec_kmeans_LR](https://github.com/xuyiqiang-learn/word2vec_kmeans_LR)训练的部分结果移植而成的java版本．
+将[word2vec_kmeans_LR](https://github.com/xuyiqiang-learn/word2vec_kmeans_LR)训练的部分结果移植而成的java版本，即将scikit-learn中训练的LR模型，重构成java版来进行预测，方便服务器集群使用。
 ```java
 public class Example {
     public static void main(String[] args) {
